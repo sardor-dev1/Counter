@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(21, 21, 21);
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+.number__counter {
+  padding-top: 200px;
+  text-align: center;
+  width: 250px;
+  padding: 100px;
+  background-color: blue;
+  border-radius: 25px;
+
+  h1 {
+    font-size: 90px;
+    font-weight: 700;
+    padding: 10px 0px;
+    color: white;
+  }
+
+  button {
+    padding: 15px 40px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    img {
+      width: 20px;
+      align-items: center;
+      display: flex;
+    }
+  }
+}

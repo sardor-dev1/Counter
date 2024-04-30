@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Sass</title>
+    <style></style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__navbar container df">
+        <div class="header__logo">
+          <a href="./index.html">Logo</a>
+        </div>
+        <ul class="header__list df">
+          <li class="header__item">
+            <a href="./index.html">Counter</a>
+          </li>
+          <li class="header__item">
+            <a href="./ind.html">Loading</a>
+          </li>
+        </ul>
+        <button class="header__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="load container">
+        <h1 class="loading__title">Loading...</h1>
+        <div class="loading">
+          <div class="loading__card"></div>
+        </div>
+        <button onclick="loadingMore()">Send More</button>
+      </section>
+    </main>
+
+    <script src="./js/map.js"></script>
+  </body>
+</html>
